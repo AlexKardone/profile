@@ -1,0 +1,14 @@
+{
+   "folders":
+   [
+      {
+         "path": "/Users/alexandermatskevich/Yandex.Disk-alex-kardone.localized/sites/profile"
+      }
+   ],
+   "settings": {
+      "sublime-view-in-browser": {
+         "baseUrl": "http://localhost/profile",
+         "basePath": "/Users/alexandermatskevich/Yandex.Disk-alex-kardone.localized/sites/profile"
+      }
+   }
+}
