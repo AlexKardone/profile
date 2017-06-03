@@ -12,6 +12,8 @@
 	<?php include("header.html") ?>
 	<?php include("blocks/content-top.html") ?>
 	<?php include("blocks/content-middle.html") ?>
+	<?php include("blocks/content-bottom.html") ?>
+	<?php include("footer.html") ?>
 	
 <script src="script.js" type="text/javascript"></script>
 </body>

@@ -43,9 +43,16 @@ function f3() {
 	a.style.display = 'none';
 }
 
-document.getElementById('content-middle__video-id').onclick = hidePoster;
+var videoWrap = document.getElementsByClassName('content-middle__video');
+console.log(videoWrap);
+
+// var videoIframe = document.getElementsByClassName('content-middle__youtube');
+
+for (var i = 0; i < videoWrap.length; i++) {
+	videoWrap[i].onclick = hidePoster;
+}
 
 function hidePoster() {
-	var a = document.getElementById('content-middle__video-id');
-	a.style.display = "none";
+	var el = this.classList;
+	videoWrap[i].style.display = 'none';
 }
